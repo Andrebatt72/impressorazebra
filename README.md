@@ -2,7 +2,7 @@
 
 **Versão 1.0 — Formato Markdown (para hospedagem no GitHub Pages)**  
 **Data:** 18/02/2026  
-**Autor:** André Di Battista (com apoio do M365 Copilot)
+**Autor:** André Di Battista 
 
 ---
 
@@ -167,19 +167,8 @@ gantt
 
 ---
 
-## 9. 📎 Anexos e Notas
 
-- Este documento está pronto para uso como `README.md` ou `docs/index.md` em um repositório GitHub Pages.  
-- Os diagramas Mermaid são renderizados automaticamente no GitHub.  
-- Para publicar:
-  1. Criar repositório;  
-  2. Adicionar este arquivo na raiz (`README.md`) ou em `docs/index.md`;  
-  3. Ativar **GitHub Pages** nas configurações do repositório;  
-  4. Escolher branch/pasta (ex.: `main` / `/docs`).
-
----
-
-## 10. 📮 Contatos
+## 9. 📮 Contatos
 
 - **Responsável técnico:** André Di Battista  
 - **Stack:** Azure App Service (App A), Agente Local (Windows/Linux), Impressoras Zebra (ZPL/9100)
