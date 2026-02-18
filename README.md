@@ -56,7 +56,7 @@ sequenceDiagram
     AppA->>AppB: Envia job para o cliente correto
     AppB->>Printer: Envia ZPL via socket TCP 9100
     Printer-->>AppB: Impressao concluida
-    AppB->>AppA: ACK (OK ou ERRO)
+    AppB->>AppA: ACK (E ou F)
     AppA->>DB: Atualiza status (X -E ou F)
 ```
 
