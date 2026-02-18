@@ -23,7 +23,7 @@ A nova solução utiliza:
 
 ```mermaid
 flowchart LR
-    ERP["ERP - App Service"]
+    ERP["ERP - App Service -FrontEnd- Backend-Job Sql"]
     DB["Azure SQL - Tabelas SPOOL_ZEBRA e portalImpressora"]
     AppA["App A - Cloud API - Orquestracao e Multicliente"]
     AppB["App B - Agente Local - Cliente"]
