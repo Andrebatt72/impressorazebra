@@ -4,15 +4,12 @@
     <meta charset="utf-8" />
     <title>{{ page.title | default: site.title | default: "Site" }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Tema do GitHub Pages (Cayman) -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!-- Mermaid via CDN -->
+    <!-- Carrega Mermaid via CDN (fora do Markdown) -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({ startOnLoad: true });</script>
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      {{ content }}
-    </div>
-  </body>
-</html>
+    <style>
+      /* Estilinho básico para o conteúdo */
+      body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; margin: 0; padding: 0; }
+      .container { max-width: 980px; margin: 40px auto; padding: 0 16px; }
+      pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      h1,
