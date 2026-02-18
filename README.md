@@ -1,6 +1,6 @@
 # 📘 Documentação Oficial — Arquitetura de Impressão Zebra (Saveinformatica)
 
-**Versão 1.0 — Formato Markdown (para hospedagem no GitHub Pages)**  
+**Versão 1.0 — Formato Markdown **  
 **Data:** 18/02/2026  
 **Autor:** André Di Battista 
 
