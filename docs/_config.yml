@@ -1,0 +1,5 @@
+markdown: GFM
+theme: jekyll-theme-cayman
+include:
+  - docs
+  - docs/_includes
