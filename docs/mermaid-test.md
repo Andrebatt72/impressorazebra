@@ -1,18 +1,11 @@
 ---
 title: Teste Mermaid
+layout: default
 ---
-
-<!-- Carrega o Mermaid direto do CDN -->
-https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js</script>
-<script>
-  mermaid.initialize({ startOnLoad: true });
-</script>
 
 # Teste Mermaid
 
-Se este gráfico aparecer desenhado (e não como texto), o Mermaid está funcionando corretamente no GitHub Pages.
-
----
+Este arquivo é usado para testar se o Mermaid está funcionando no GitHub Pages.
 
 ## 🔹 Diagrama de Fluxo
 
@@ -24,8 +17,6 @@ flowchart LR
     C -- Não --> B
 ```
 
----
-
 ## 🔹 Diagrama de Sequência
 
 ```mermaid
@@ -35,3 +26,4 @@ sequenceDiagram
     U->>S: Acessa página
     S-->>U: Renderiza Mermaid
 ```
+``
