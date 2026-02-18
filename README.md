@@ -57,7 +57,7 @@ sequenceDiagram
     AppB->>Printer: Envia ZPL via socket TCP 9100
     Printer-->>AppB: Impressao concluida
     AppB->>AppA: ACK (OK ou ERRO)
-    AppA->>DB: Atualiza status (E ou ERRO)
+    AppA->>DB: Atualiza status (X -E ou F)
 ```
 
 ---
