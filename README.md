@@ -131,44 +131,8 @@ flowchart TD
 
 ---
 
-## 7. 📝 Plano de Transição
 
-```mermaid
-gantt
-    dateFormat  YYYY-MM-DD
-    title Plano de Transicao
-
-    section Preparacao
-    Reducao de privilegios savecloud   :done, 2026-02-19, 2d
-    Publicacao inicial App A           :active, 2026-02-21, 5d
-
-    section Piloto
-    Instalacao App B em 1 cliente      :2026-02-28, 3d
-    Testes P->E                        :2026-03-02, 2d
-
-    section Rollout
-    Clientes em ondas                  :2026-03-06, 14d
-    Desligamento final savecloud       :2026-03-20, 1d
-```
-
----
-
-## 8. ⏱️ Estimativa de Tempo (MVP)
-
-| Fase | Atividade | Tempo estimado |
-|------|-----------|----------------|
-| Fase 1 | App A Cloud (API / multitenant / distribuição jobs) | 1.5–2 semanas |
-| Fase 2 | App B Agente Local (descoberta, impressão TCP 9100, ACK) | 1–1.5 semanas |
-| Fase 3 | Piloto com 1 cliente | 3–5 dias |
-| Fase 4 | Rollout gradual | 1–2 semanas |
-
-**⮞ Prazo total estimado:** **3 a 5 semanas**  
-**Complexidade:** **Média**
-
----
-
-
-## 9. 📮 Contatos
+## 7. 📮 Contatos
 
 - **Responsável técnico:** André Di Battista  
 - **Stack:** Azure App Service (App A), Agente Local (Windows/Linux), Impressoras Zebra (ZPL/9100)
