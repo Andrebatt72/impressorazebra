@@ -1,0 +1,25 @@
+site_name: Impressora Zebra
+theme:
+  name: material
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.progressbar
+  - pymdownx.arithmatex
+  - pymdownx.magiclink
+  - pymdownx.betterem
+	- pymdownx.critic
+	- pymdownx.smartsymbols
+	- pymdownx.tasklist
+	- pymdownx.saneheaders
+	- pymdownx.mermaid
